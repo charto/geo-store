@@ -1,0 +1,28 @@
+{
+  "name": "geo-store",
+  "version": "0.0.1",
+  "description": "Efficient geographical data storage",
+  "main": "dist/store.js",
+  "typings": "dist/store.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "prepublish": "tsc",
+    "test": "tsc -p test && node test/test.js"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charto/geo-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charto/geo-store/issues"
+  },
+  "homepage": "https://github.com/charto/geo-store#readme",
+  "devDependencies": {
+    "typescript": "~1.8.7"
+  },
+  "dependencies": {
+    "geo-types": "~0.0.1"
+  }
+}
